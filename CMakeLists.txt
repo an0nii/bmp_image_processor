@@ -8,4 +8,6 @@ add_executable(bmp_image_processor
         Image/image.h
         Image/read.cpp
         Image/write.cpp
+        Parser/parse.h
+        Parser/parse.cpp
 )
