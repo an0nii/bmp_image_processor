@@ -51,27 +51,39 @@ build cmake_object_order_depends_target_bmp_image_processor: phony || CMakeFiles
 
 build CMakeFiles/bmp_image_processor.dir/main.cpp.obj: CXX_COMPILER__bmp_image_processor_unscanned_Debug C$:/Users/h1gst/CLionProjects/bmp_image_processor/main.cpp || cmake_object_order_depends_target_bmp_image_processor
   DEP_FILE = CMakeFiles\bmp_image_processor.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\bmp_image_processor.dir
   OBJECT_FILE_DIR = CMakeFiles\bmp_image_processor.dir
 
 build CMakeFiles/bmp_image_processor.dir/Image/read.cpp.obj: CXX_COMPILER__bmp_image_processor_unscanned_Debug C$:/Users/h1gst/CLionProjects/bmp_image_processor/Image/read.cpp || cmake_object_order_depends_target_bmp_image_processor
   DEP_FILE = CMakeFiles\bmp_image_processor.dir\Image\read.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\bmp_image_processor.dir
   OBJECT_FILE_DIR = CMakeFiles\bmp_image_processor.dir\Image
 
 build CMakeFiles/bmp_image_processor.dir/Image/write.cpp.obj: CXX_COMPILER__bmp_image_processor_unscanned_Debug C$:/Users/h1gst/CLionProjects/bmp_image_processor/Image/write.cpp || cmake_object_order_depends_target_bmp_image_processor
   DEP_FILE = CMakeFiles\bmp_image_processor.dir\Image\write.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\bmp_image_processor.dir
   OBJECT_FILE_DIR = CMakeFiles\bmp_image_processor.dir\Image
 
-build CMakeFiles/bmp_image_processor.dir/Parcer/parse.cpp.obj: CXX_COMPILER__bmp_image_processor_unscanned_Debug C$:/Users/h1gst/CLionProjects/bmp_image_processor/Parcer/parse.cpp || cmake_object_order_depends_target_bmp_image_processor
-  DEP_FILE = CMakeFiles\bmp_image_processor.dir\Parcer\parse.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+build CMakeFiles/bmp_image_processor.dir/Parser/parse.cpp.obj: CXX_COMPILER__bmp_image_processor_unscanned_Debug C$:/Users/h1gst/CLionProjects/bmp_image_processor/Parser/parse.cpp || cmake_object_order_depends_target_bmp_image_processor
+  DEP_FILE = CMakeFiles\bmp_image_processor.dir\Parser\parse.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\bmp_image_processor.dir
-  OBJECT_FILE_DIR = CMakeFiles\bmp_image_processor.dir\Parcer
+  OBJECT_FILE_DIR = CMakeFiles\bmp_image_processor.dir\Parser
+
+build CMakeFiles/bmp_image_processor.dir/Filters/filters.cpp.obj: CXX_COMPILER__bmp_image_processor_unscanned_Debug C$:/Users/h1gst/CLionProjects/bmp_image_processor/Filters/filters.cpp || cmake_object_order_depends_target_bmp_image_processor
+  DEP_FILE = CMakeFiles\bmp_image_processor.dir\Filters\filters.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\bmp_image_processor.dir
+  OBJECT_FILE_DIR = CMakeFiles\bmp_image_processor.dir\Filters
+
+build CMakeFiles/bmp_image_processor.dir/Filters/make_filter.cpp.obj: CXX_COMPILER__bmp_image_processor_unscanned_Debug C$:/Users/h1gst/CLionProjects/bmp_image_processor/Filters/make_filter.cpp || cmake_object_order_depends_target_bmp_image_processor
+  DEP_FILE = CMakeFiles\bmp_image_processor.dir\Filters\make_filter.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\bmp_image_processor.dir
+  OBJECT_FILE_DIR = CMakeFiles\bmp_image_processor.dir\Filters
 
 
 # =============================================================================
@@ -81,7 +93,7 @@ build CMakeFiles/bmp_image_processor.dir/Parcer/parse.cpp.obj: CXX_COMPILER__bmp
 #############################################
 # Link the executable bmp_image_processor.exe
 
-build bmp_image_processor.exe: CXX_EXECUTABLE_LINKER__bmp_image_processor_Debug CMakeFiles/bmp_image_processor.dir/main.cpp.obj CMakeFiles/bmp_image_processor.dir/Image/read.cpp.obj CMakeFiles/bmp_image_processor.dir/Image/write.cpp.obj CMakeFiles/bmp_image_processor.dir/Parcer/parse.cpp.obj
+build bmp_image_processor.exe: CXX_EXECUTABLE_LINKER__bmp_image_processor_Debug CMakeFiles/bmp_image_processor.dir/main.cpp.obj CMakeFiles/bmp_image_processor.dir/Image/read.cpp.obj CMakeFiles/bmp_image_processor.dir/Image/write.cpp.obj CMakeFiles/bmp_image_processor.dir/Parser/parse.cpp.obj CMakeFiles/bmp_image_processor.dir/Filters/filters.cpp.obj CMakeFiles/bmp_image_processor.dir/Filters/make_filter.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bmp_image_processor.dir

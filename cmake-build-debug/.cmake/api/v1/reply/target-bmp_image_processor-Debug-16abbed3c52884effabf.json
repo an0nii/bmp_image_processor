@@ -38,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"language" : "CXX",
@@ -48,14 +48,16 @@
 				[
 					1
 				],
-				"standard" : "14"
+				"standard" : "17"
 			},
 			"sourceIndexes" : 
 			[
 				0,
 				2,
 				3,
-				5
+				5,
+				8,
+				9
 			]
 		}
 	],
@@ -95,7 +97,9 @@
 				0,
 				2,
 				3,
-				5
+				5,
+				8,
+				9
 			]
 		},
 		{
@@ -103,7 +107,9 @@
 			"sourceIndexes" : 
 			[
 				1,
-				4
+				4,
+				6,
+				7
 			]
 		}
 	],
@@ -134,13 +140,35 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Parcer/parse.h",
+			"path" : "Parser/parse.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Parcer/parse.cpp",
+			"path" : "Parser/parse.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Filters/filters.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Filters/make_filter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Filters/filters.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Filters/make_filter.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

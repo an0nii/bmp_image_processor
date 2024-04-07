@@ -1,3 +1,10 @@
 # ninja log v5
 0	308	7342145969526349	CMakeFiles/bmp_image_processor.dir/main.cpp.obj	143241fa6b5d3b36
 341	508	7342145971520862	bmp_image_processor.exe	441a59903af8564a
+27	750	7342167475623829	CMakeFiles/bmp_image_processor.dir/Image/read.cpp.obj	af2c75357933666c
+17	785	7342167475969467	CMakeFiles/bmp_image_processor.dir/Image/write.cpp.obj	de497e17d8d558d7
+94	824	7342167476362598	CMakeFiles/bmp_image_processor.dir/Parser/parse.cpp.obj	fd778192f8d4e90e
+4	1291	7342167481006206	CMakeFiles/bmp_image_processor.dir/main.cpp.obj	e433aebf911bf6e9
+45	1325	7342167481196793	CMakeFiles/bmp_image_processor.dir/Filters/filters.cpp.obj	9f48e7b253c9d3f1
+70	1439	7342167482500514	CMakeFiles/bmp_image_processor.dir/Filters/make_filter.cpp.obj	dded81fcfac93d7d
+1439	1724	7342167485344826	bmp_image_processor.exe	60a12b4ee8cc3aed
